@@ -1,12 +1,16 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+    background-color: #999;
+    margin-left: 30%;
+    margin-top: 10%;
 }
 
 ol, ul {
   padding-left: 30px;
 }
-
+.App-header{
+    justify-content: center;
+}
 .board-row:after {
   clear: both;
   content: "";
@@ -18,18 +22,17 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: rgb(207, 203, 203);
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 170px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 170px;
 }
 
 .square:focus {
@@ -47,4 +50,7 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+#title{
+    justify-content: center;
 }
