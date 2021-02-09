@@ -12,7 +12,11 @@ class Home extends Component {
         <p className="App-intro">
           <Game></Game>
         </p>
+        <div>
+          <input type="button" value="Actualizar" onclick="location.reload()"/>
+         </div>
       </div>
+      
     );
   }
 }
