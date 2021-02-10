@@ -5,5 +5,5 @@ import './styles.css';
 
 ReactDOM.render(
   <Home />,
-  document.getElementById('root')
+  document.getElementById('app')
 );
